@@ -1,0 +1,19 @@
+body {
+    background-size: cover;
+    }
+    .copy_right_footer{
+    color:teal ;
+    background-color: tomato;
+    position: fixed;
+    width: 100%;
+    line-height:2;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    bottom:0;
+    }
+    canvas{
+        border:3px dotted pink;
+        border-radius: 40px;
+        margin-top: 30px;
+        box-shadow: 5px 5px 5px midnightblue ;
+    }

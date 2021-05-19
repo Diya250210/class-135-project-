@@ -1,0 +1,42 @@
+<html>
+
+<head>
+
+  <title>Object Finder Web App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="images (8).jpg">
+  <center>
+      <div>
+    <h1 class="btn btn-danger">Object Finder Web App 
+        <br>
+        The input name which you will give should match the names given the names present in CoCo model. Only then it will detect.
+
+    </h1>
+    </div>
+    <br><br>
+    <input type="text"></input>
+    <br><br>
+    <button class="btn btn-primary" id="start_button" onclick=start()>Start</button>
+    <br>
+    <h2 class="btn btn-warning" id="number_objects"></h2>
+    <br>
+    <h2 class="btn btn-success" id="status"></h2>
+  </center>
+  <div class="copy_right_footer">Developed By - Diya Gupta </div>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
